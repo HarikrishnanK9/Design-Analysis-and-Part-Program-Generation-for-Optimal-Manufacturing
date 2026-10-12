@@ -2,78 +2,62 @@
 
 ## Overview
 
-This project explores the relationship between engineering design, manufacturing analysis, and CNC part-program generation. It focuses on translating component designs into manufacturing-oriented outputs while considering geometry, machining requirements, and production suitability.
+This project explores computer-aided design (CAD), engineering design analysis, and manufacturing-oriented part-program development using **Autodesk Fusion 360**.
 
-The repository contains sample component designs, visual references, and G-code documentation that illustrate the connection between part geometry and manufacturing instructions.
+The project focuses on component modeling, understanding part geometry, and connecting engineering designs with manufacturing processes. It includes visual references for mechanical components and CNC G-code documentation to illustrate the relationship between digital design and machining operations.
 
-## Objectives
+## Tools and Technologies
 
-- Analyze component designs from a manufacturing perspective.
-- Understand the relationship between part geometry and machining operations.
-- Explore CNC part-program generation using G-code.
-- Examine manufacturing requirements for components with different geometries.
-- Support the study of efficient and practical manufacturing workflows.
+- **Autodesk Fusion 360** — CAD modeling, component design, and manufacturing-oriented design workflows.
+- **CNC G-code** — Part-program documentation and machining instructions.
+- **3D Modeling and Visualization** — Representation and analysis of component geometry.
 
-## Project Contents
+## Project Objectives
 
-The repository includes the following engineering resources:
+- Develop and examine mechanical component designs using Autodesk Fusion 360.
+- Understand component geometry and its manufacturing implications.
+- Explore the relationship between CAD models and CNC machining.
+- Study part-program structure and G-code-based manufacturing instructions.
+- Identify considerations for improving machining efficiency and manufacturing suitability.
 
-- **Component Design Images:** Visual references for parts such as clamps, sprockets, and keyboard covers.
-- **3D Component Visualization:** Reference imagery for understanding component geometry.
-- **G-code Documentation:** Missile-component machining program documentation provided in DOCX and PDF formats.
-- **Manufacturing Analysis:** Design-oriented material for exploring the transition from component geometry to machining instructions.
+## Project Components
 
-## Manufacturing Workflow
+The repository includes engineering design references and manufacturing documentation, including:
 
-A typical design-to-manufacturing workflow involves:
+- **Clamp Design:** Component imagery and 3D visualization.
+- **Sprocket Design:** Mechanical component geometry.
+- **Keyboard Cover Design:** Product/component design reference.
+- **CNC Part-Program Documentation:** G-code documentation provided in DOCX and PDF formats.
 
-1. **Design Analysis** — Examine component geometry and relevant manufacturing requirements.
-2. **Manufacturing Assessment** — Identify suitable machining operations and production considerations.
-3. **Process Planning** — Determine the sequence of operations and machining requirements.
-4. **Part-Program Preparation** — Develop or review CNC instructions using appropriate G-code conventions.
-5. **Program Verification** — Validate toolpaths, coordinates, tooling requirements, and machine-specific constraints before machining.
-6. **Manufacturing Optimization** — Evaluate opportunities to improve machining efficiency, accuracy, and material utilization.
+## Design-to-Manufacturing Workflow
+
+1. **CAD Modeling** — Create or examine component geometry in Autodesk Fusion 360.
+2. **Design Analysis** — Review dimensions, geometric features, and manufacturing requirements.
+3. **Manufacturing Planning** — Consider suitable machining operations, tooling, and workholding.
+4. **Part-Program Development** — Prepare or review CNC machining instructions and G-code.
+5. **Verification** — Check toolpaths, coordinate systems, and machine-specific requirements before manufacturing.
+6. **Optimization** — Evaluate opportunities to improve manufacturability, machining efficiency, and dimensional accuracy.
 
 ## Applications
 
-- CNC machining and part-program development
-- Engineering design and manufacturing analysis
-- Computer-aided manufacturing (CAM) learning
+- Computer-aided design (CAD)
+- Mechanical component modeling
+- Computer-aided manufacturing (CAM)
+- CNC machining and G-code studies
 - Manufacturing process planning
-- Component geometry and machining-program studies
+- Design-for-manufacturing analysis
 
-## Repository Structure
+## Potential Extensions
 
-```text
-design-to-manufacturing-automation/
-├── README.md
-├── Clamp of missile.jpg
-├── Keyboard Cover.jpg
-├── Missile Gcodes Full.docx
-├── Missile Gcodes Full.pdf
-├── Sprocket.png
-└── clamp of missile 3d.png
-```
+- Integrating CAD models with automated manufacturing workflows.
+- Generating CNC toolpaths from supported component designs.
+- Simulating machining operations in Fusion 360.
+- Evaluating alternative machining strategies.
+- Improving toolpath efficiency and manufacturing accuracy.
 
-*The structure above reflects the currently visible repository files; it may change as the project evolves.*
+These are potential extensions and are not necessarily implemented in the current repository.
 
-## Future Improvements
+## Safety and Verification
 
-Potential extensions include:
+CNC programs must be validated against the target machine, controller, tooling, material, and workholding setup. Simulate toolpaths and verify machining instructions before executing them on physical equipment.
 
-- CAD model import and geometry analysis
-- Automated machining-operation planning
-- CNC G-code generation from component geometry
-- Toolpath visualization and simulation
-- Collision and machining-constraint checks
-- Comparative analysis of manufacturing strategies
-
-These are potential extensions rather than claims about currently implemented features.
-
-## Disclaimer
-
-G-code and machining instructions must be reviewed and validated against the target CNC machine, controller, tooling, workholding, material, and safety requirements before execution. Simulation and appropriate machine-specific verification are recommended.
-
-## License
-
-Add the applicable license information here if the project is intended for reuse or distribution.
