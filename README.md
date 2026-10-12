@@ -1,7 +1,7 @@
 # Design Analysis and Part Program Generation for Optimal Manufacturing
 
 ## Overview
-(https://github.com/HarikrishnanK9/Design-Analysis-and-Part-Program-Generation-for-Optimal-Manufacturing/blob/main/clamp%20of%20missile%203d.png)
+![Missile Component](https://github.com/HarikrishnanK9/Design-Analysis-and-Part-Program-Generation-for-Optimal-Manufacturing/blob/main/clamp%20of%20missile%203d.png)
 
 This project explores computer-aided design (CAD), engineering design analysis, and manufacturing-oriented part-program development using **Autodesk Fusion 360**.
 
