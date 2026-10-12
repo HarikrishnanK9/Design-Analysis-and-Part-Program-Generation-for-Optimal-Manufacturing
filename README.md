@@ -27,6 +27,7 @@ The repository includes engineering design references and manufacturing document
 
 - **Clamp Design:** Component imagery and 3D visualization.
 - **Sprocket Design:** Mechanical component geometry.
+![Sprocket](https://github.com/HarikrishnanK9/Design-Analysis-and-Part-Program-Generation-for-Optimal-Manufacturing/blob/main/Sprocket.png)
 - **Keyboard Cover Design:** Product/component design reference.
 - **CNC Part-Program Documentation:** G-code documentation provided in DOCX and PDF formats.
 
